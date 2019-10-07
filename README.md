@@ -87,18 +87,39 @@ Example: `mkdir music video photo`
     mv - It is used to move or rename files. It can be written as follow:  
     `mv [OPTION]... SOURCE... DIRECTORY`
 Example: `cp [OPTION]... SOURCE... DIRECTORY`
-![cp example](/images/mv_command.PNG)
+![ example](/images/mv_command.PNG)
 
     It will move the README_BACKUP.md file to the /music directory. We can compare it with CP command. The only difference is instead of copying into new Destination it moves to the new Destination. Following optional arguments can be passed:  
     * -f, --force  
         do not prompt before overwriting
-    * -i, --interactive
+    * -i, --interactive  
         prompt before overwrite
-    * -n, --no-clobber
+    * -n, --no-clobber  
         do not overwrite an existing file
 
     If you specify more than one of -i, -f, -n, only the final one takes effect.  
     To view entire list of arguments [click here](http://man7.org/linux/man-pages/man1/mv.1.html).
+
+* **rm command**  
+    rm - It will remove the file(s) or directory(s). rm removes each specified file. By default, it does not remove directories. We need to use --recursive (or -r or -R).    
+    `rm [OPTION]... [FILE]...`  
+
+    Example: rm -R music/  
+    It will remove the music directory and all the directories and files inside it recursively.
+![rm example](/images/rm_command.PNG)
+
+    Arguments supported by rm command:  
+    * -f, --force  
+        ignore nonexistent files and arguments, never prompt
+    * -i  
+        prompt before every removal
+    * -r, -R, --recursive  
+        remove directories and their contents recursively
+    * -d, --dir  
+        remove empty directories
+    
+    To know more about rm command, please refer [this](https://linux.die.net/man/1/rm) link.
+
 
 
 
