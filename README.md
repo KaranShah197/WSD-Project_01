@@ -32,16 +32,17 @@ The following operations shall be supported by vi:
 
 * **CD Command**
     cd - change the working directory.
-    This command is use to change the working directory on terminal. Using cd we can change the working directory to any directoy on machine.
+    This command will allow you to change the working directories through terminal. Using cd we can change the working directory to any directory on machine.
     We can provide the relative path or absolute path to the same.
     eg: cd /images/ - It will change the current working directory to /images.
 ![cd example](/images/cd_command.PNG)
 
-    The above was the example of relative path where we specified the the location of directory which was inside the current directory. Below is the example to change the working directory using relative path.
+    The above was the example of relative path where we specified the the location of directory which was inside the current directory. Below is the example to change the working directory using relative path.  
     eg: cd /dev/home/usr/karan/project/
 
     We can also use .. to move to the parent directory
     eg: cd ..
+    More details can be found at (http://man7.org/linux/man-pages/man1/cd.1p.html).
 
 
 ## **GitFlow Workflow**
