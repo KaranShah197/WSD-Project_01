@@ -29,3 +29,12 @@ The following operations shall be supported by vi:
 * -t `tagstring`    : Edit the file containing the specified tagstring.
 * -w `size`         : Set the value of the `window` editor option to size.
 
+## **GitFlow Workflow**
+
+GitFlow is branching model for Git. It is ideally suited for projects that have a scheduled release cycle. A Git flow consists of several steps including: 
+* *Create a branch*
+* *Add commits*
+* *Open a pull request*
+* *Review code*
+* *Merge the code*
+* *Deploy code*
