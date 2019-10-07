@@ -47,10 +47,27 @@ The vi (visual) utility is a screen-oriented text editor. Following is the synta
     mkdir - It will allow you to create new directory(s) (Make directory). It has the following syntax:  
     `mkdir [option] directory_name(s)`  
     Example: `mkdir music` it will create a diectory called music.
-![mkdir example](/images/mkdir_command.PNG)  
+![mkdir example](/images/mkdir_command.PNG)
     
     We can also specify the multiple directory names.  
 Example: `mkdir music video photo`
+
+* **cp command**  
+    cp - copy files and direcories.  
+    Copy SOURCE to DEST, or multiple SOURCE(s) to DEST.  
+    Example: `cp [OPTION]... SOURCE... DIRECTORY`
+![cp example](/images/cp_command.PNG)
+
+    We can pass following options to CP command
+    * --backup[=CONTROL]  
+        make a backup of each destination file
+    * --copy-contents  
+        copy contents of special files when recursive
+    * -f, --force  
+        if an existing destination file cannot be opened, remove it and try again
+    * -i, --interactive  
+        prompt before overwrite
+
 
 ## **GitFlow Workflow**
 
