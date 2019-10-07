@@ -83,6 +83,24 @@ Example: `mkdir music video photo`
     * --version  
         output version information and exit  
 
+* **mv command**  
+    mv - It is used to move or rename files. It can be written as follow:  
+    `mv [OPTION]... SOURCE... DIRECTORY`
+Example: `cp [OPTION]... SOURCE... DIRECTORY`
+![cp example](/images/mv_command.PNG)
+
+    It will move the README_BACKUP.md file to the /music directory. We can compare it with CP command. The only difference is instead of copying into new Destination it moves to the new Destination. Following optional arguments can be passed:  
+    * -f, --force  
+        do not prompt before overwriting
+    * -i, --interactive
+        prompt before overwrite
+    * -n, --no-clobber
+        do not overwrite an existing file
+
+    If you specify more than one of -i, -f, -n, only the final one takes effect.  
+    To view entire list of arguments [click here](http://man7.org/linux/man-pages/man1/mv.1.html).
+
+
 
 ## **GitFlow Workflow**
 
