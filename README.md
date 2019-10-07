@@ -67,6 +67,10 @@ Example: `mkdir music video photo`
         if an existing destination file cannot be opened, remove it and try again
     * -i, --interactive  
         prompt before overwrite
+    
+    We can pass many more agruments to copy command. Please [click here](http://man7.org/linux/man-pages/man1/cp.1.html) to view the same.
+
+
 
 
 ## **GitFlow Workflow**
