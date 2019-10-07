@@ -53,3 +53,5 @@ GitFlow is branching model for Git. It is ideally suited for projects that have 
 * tracks the specific changes
 * when the changes were made
 * created the changes
+
+**Merge** is to put two branches (two version) together. It is used to merge a pull request into the upstream branch when work is completed. Anyone with push access to the repository can complete the merge.
