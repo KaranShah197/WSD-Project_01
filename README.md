@@ -41,4 +41,6 @@ GitFlow is branching model for Git. It is ideally suited for projects that have 
 
 ## **Terminology**
 
-**Repository** is a git project. It contains all of the project's files and stores each file's revision history. 
+**Repository** is a git project. It contains all of the project's files and stores each file's revision history.
+
+**Clone** is used to target an existing repository and create a copy of the target repository. When you create a repository on GitHub, it exists as a remote repository. You can clone your repository to create a local copy on your computer and sync between the two locations. 
