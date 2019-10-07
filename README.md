@@ -129,7 +129,7 @@ Example: `cp [OPTION]... SOURCE... DIRECTORY`
     Example: `history 15`
 
     This will only list the last n commands. Type “history” (without options) to see the the entire history list.  
-    References: [Man pages](http://man7.org/linux/man-pages/man3/history.3.html), (https://linux.die.net/Linux-CLI/x1712.htm)  
+    References: http://man7.org/linux/man-pages/man3/history.3.html, (https://linux.die.net/Linux-CLI/x1712.htm  
 
 
 
