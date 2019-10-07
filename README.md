@@ -21,29 +21,36 @@ The vi (visual) utility is a screen-oriented text editor. Following is the synta
 ![vi example](/images/vi_open.PNG)
 ![vi editor](/images/vi_edit.PNG)
     
-The following operations shall be supported by vi:
+    The following operations shall be supported by vi:
+   * -c `command`      : Specify an initial command to be executed in the first edit buffer loaded from an existing file.
+   * -r                : Recover the named files.
+   * -R                : Set `readonly` edit option.
+   * -t `tagstring`    : Edit the file containing the specified tagstring.
+   * -w `size`         : Set the value of the `window` editor option to size.
 
-* -c `command`      : Specify an initial command to be executed in the first edit buffer loaded from an existing file.
-* -r                : Recover the named files.
-* -R                : Set `readonly` edit option.
-* -t `tagstring`    : Edit the file containing the specified tagstring.
-* -w `size`         : Set the value of the `window` editor option to size.
 
-
-* **CD Command**
-    cd - change the working directory.
+* **CD Command**  
+    cd - change the working directory.  
     This command will allow you to change the working directories through terminal. Using cd we can change the working directory to any directory on machine.
-    We can provide the relative path or absolute path to the same.
-    eg: cd /images/ - It will change the current working directory to /images.
+    We can provide the relative path or absolute path to the same.  
+    eg: cd /images/ - It will change the current working directory to /images.  
 ![cd example](/images/cd_command.PNG)
 
     The above was the example of relative path where we specified the the location of directory which was inside the current directory. Below is the example to change the working directory using relative path.  
     eg: cd /dev/home/usr/karan/project/
 
-    We can also use .. to move to the parent directory
-    eg: cd ..
-    More details can be found at (http://man7.org/linux/man-pages/man1/cd.1p.html).
+    We can also use .. to move to the parent directory  
+    eg: cd ..  
+    More details can be found at (http://man7.org/linux/man-pages/man1/cd.1p.html).  
 
+* **mkdir Command**  
+    mkdir - It will allow you to create new directory(s) (Make directory). It has the following syntax:  
+    `mkdir [option] directory_name(s)`  
+    Example: `mkdir music` it will create a diectory called music.  
+![mkdir example](/images/mkdir_command.PNG)  
+    
+    We can also specify the multiple directory names.  
+    Example: mkdir music video photo
 
 ## **GitFlow Workflow**
 
