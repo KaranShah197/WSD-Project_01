@@ -55,3 +55,5 @@ GitFlow is branching model for Git. It is ideally suited for projects that have 
 * created the changes
 
 **Merge** is to put two branches (two version) together. It is used to merge a pull request into the upstream branch when work is completed. Anyone with push access to the repository can complete the merge.
+
+**Checkout** is used to navigate between branches created by git branch. Checking out a branch updates the files in the working directory to match the version stored in that branch and it tells Git to record all new commits on that branch.
