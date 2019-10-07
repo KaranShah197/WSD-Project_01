@@ -1,5 +1,17 @@
 # WSD-project1
 
+## **Explain how the usage of Git, Docker, automated testing, and continuous integration can improve the productivity and competitiveness of a company.**
+
+Git, Docker, automated testing, and continuous integration all have a significant learning curve.
+ 
+**Git** benefits every aspect of an organization, from the development team to the marketing team, and everything in between. It is an Open Source Distributed Version Control System. This basically means that Git is a content tracker and is used to store content — it is mostly used to store code due to the other features it provides. The code which is stored in Git keeps changing as more code is added. Also, many developers can add code in parallel. So Version Control System helps in handling this by maintaining a history of what changes have happened. Real life projects generally have multiple developers working in parallel. So a version control system like Git is needed to ensure there are no code conflicts between the developers. For more information visit [Git](https://www.atlassian.com/git/tutorials/why-git).
+
+**Docker** is a platform that allows users to easily pack, distribute, and manage applications within containers. In other words, it is an open-source project that automates the deployment of applications inside software containers. Docker really makes it easier to create, deploy, and run applications by using containers, and containers allow a developer to package up an application with all of the parts it needs, such as libraries and other dependencies, and ship it all out as one package. By doing so, the developer can be assured that the application will run on any other Linux machine regardless of any customized settings that machine might have that could differ from the machine used for writing and testing the code. For more information visit [Docker](https://www.docker.com/why-docker).
+
+**Automated testing** is the act of conducting specific tests via automation as opposed to conducting them manually. It is quickly becoming necessary for micro, small, and medium-sized enterprises (SMEs) to automate their testing processes. Test automation increases overall software efficiency and ensures robust software quality. There are specific tools that can effectively execute automated test cases, and help in comparing actual and expected results. In this manner, automated testing can guarantee software proficiency without involving repeated and manual intervention. One of the biggest business perks of automated testing is that it can be implemented time and again, with minimal effort and maximum accuracy. Read more about [Automated Testing](https://smartbear.com/solutions/automated-testing/).
+
+**Continuous Integration** is used speed up and automate the software delivery lifecycle. It is a DevOps process that is integral to continuous delivery, has code committed into source control and builds automatically performed “continuously.” Continuously integrating code improves processes in a way that benefits both IT teams and their business counterparts. Continuous integration continuously processes, tests, and uploads changes or additions made to a code base. The code is saved in a source control management system that is accessible to all developers for testing and reference. Any developer working on the application has access to the most current code. Read more about [Continuous Integration](https://www.thoughtworks.com/continuous-integration).
+
 ## Basic commands to manage the file systems on Linux
 
 The vi (visual) utility is a screen-oriented text editor. Following is the syntax for writing the vi command
@@ -16,3 +28,4 @@ The following operations shall be supported by vi:
 * -R                : Set `readonly` edit option.
 * -t `tagstring`    : Edit the file containing the specified tagstring.
 * -w `size`         : Set the value of the `window` editor option to size.
+
