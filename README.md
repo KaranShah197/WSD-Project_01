@@ -61,3 +61,5 @@ GitFlow is branching model for Git. It is ideally suited for projects that have 
 **Push** is used to upload local repository content to a remote repository. The git push command takes two arguments:
 - a remote name, for example, origin 
 - a branch name, for example, master
+
+**Pull** is used to fetch and download content from a remote repository and immediately update the local repository to match that content. A pull requests let you tell others about changes you've pushed to a branch in a repository on GitHub. Once a pull request is opened, you can discuss and review the potential changes with collaborators and add follow-up commits before your changes are merged into the base branch.
