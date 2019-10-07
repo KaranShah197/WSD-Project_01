@@ -38,3 +38,7 @@ GitFlow is branching model for Git. It is ideally suited for projects that have 
 * *Review code*
 * *Merge the code*
 * *Deploy code*
+
+## **Terminology**
+
+**Repository** is a git project. It contains all of the project's files and stores each file's revision history. 
