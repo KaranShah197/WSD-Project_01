@@ -46,3 +46,5 @@ GitFlow is branching model for Git. It is ideally suited for projects that have 
 **Clone** is used to target an existing repository and create a copy of the target repository. When you create a repository on GitHub, it exists as a remote repository. You can clone your repository to create a local copy on your computer and sync between the two locations. 
 
 **Fork** is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project. Most commonly, forks are used to either propose changes to someone else's project or to use someone else's project as a starting point for your own idea.
+
+**Branch** is a separate copy of the project that can be merged together. A branch is used to isolate development work without affecting other branches in the repository. Each repository has one default branch, and can have multiple other branches. You can merge a branch into another branch using a pull request.
