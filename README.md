@@ -46,11 +46,11 @@ The vi (visual) utility is a screen-oriented text editor. Following is the synta
 * **mkdir Command**  
     mkdir - It will allow you to create new directory(s) (Make directory). It has the following syntax:  
     `mkdir [option] directory_name(s)`  
-    Example: `mkdir music` it will create a diectory called music.  
+    Example: `mkdir music` it will create a diectory called music.
 ![mkdir example](/images/mkdir_command.PNG)  
     
     We can also specify the multiple directory names.  
-    Example: mkdir music video photo
+Example: `mkdir music video photo`
 
 ## **GitFlow Workflow**
 
