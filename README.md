@@ -70,7 +70,18 @@ Example: `mkdir music video photo`
     
     We can pass many more agruments to copy command. Please [click here](http://man7.org/linux/man-pages/man1/cp.1.html) to view the same.
 
+* **pwd command**  
+    pwd - It prints the name of current working directory. It can be written as follow:  
+    `pwd [OPTION]...`  
 
+    Example: pwd  
+    Following options can be passed to the pwd command:  
+    * -P, --physical  
+        avoid all symlinks
+    * --help  
+        display this help and exit
+    * --version  
+        output version information and exit  
 
 
 ## **GitFlow Workflow**
