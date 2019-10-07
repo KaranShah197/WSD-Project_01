@@ -6,8 +6,8 @@ The vi (visual) utility is a screen-oriented text editor. Following is the synta
 
     vi [−rR] [−c command] [−t tagstring] [−w size] [file...]
 
-    ![vi example](/images/vi_open.png)
-    ![vi editor](/images/vi_edit.png)
+    ![vi example](/images/vi_open.PNG)
+    ![vi editor](/images/vi_edit.PNG)
     
     The following operations shall be supported by vi:
 
