@@ -129,8 +129,25 @@ Example: `cp [OPTION]... SOURCE... DIRECTORY`
     Example: `history 15`
 
     This will only list the last n commands. Type “history” (without options) to see the the entire history list.  
-    References: http://man7.org/linux/man-pages/man3/history.3.html, (https://linux.die.net/Linux-CLI/x1712.htm  
+    References: http://man7.org/linux/man-pages/man3/history.3.html, https://linux.die.net/Linux-CLI/x1712.htm  
 
+* **Home directory and ~**
+    1. **Home directory**
+        A `home directory` also called a `login directory` is a file system directory on Unix-like operating systems that serves as the repository containing a personal  files, directories and programs for a given user of the system. It is also the directory that a user is first in after logging into the system.  
+
+        A home directory is created automatically for every ordinary user in the directory called `/home`,  standard subdirectory of the `root directory`.  
+
+        A user with a user name of `tester` would typically have a home directory named `tester`. It would have an absolute pathname of `/home/tester`.  
+
+        We can use `cd` command without any option to go to the user home directory.
+    
+    1. **~**
+        The `tilde` (`~` - the wavy horizontal line character) is used to represent users' home directories on Unix-like operating systems.  
+        A user could also return to its home directory by using the tilde as an argument to cd, i.e.,  
+            `cd ~`  
+        The ~user shorthand variable refers to a user's home directory.(allowing the user to navigate to it from anywhere else in the filesystem, or use it in other Unix commands).  
+
+More information can be found at http://www.linfo.org/home_directory.html
 
 
 ## **GitFlow Workflow**
