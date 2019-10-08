@@ -141,7 +141,7 @@ Example: `cp [OPTION]... SOURCE... DIRECTORY`
 
         We can use `cd` command without any option to go to the user home directory.
     
-    1. **~**
+    1. **Tilde (~)**  
         The `tilde` (`~` - the wavy horizontal line character) is used to represent users' home directories on Unix-like operating systems.  
         A user could also return to its home directory by using the tilde as an argument to cd, i.e.,  
             `cd ~`  
