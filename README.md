@@ -190,3 +190,5 @@ GitFlow is branching model for Git. It is ideally suited for projects that have 
 1. *Remote Add* adds a new remote in the directory the repository is stored at. 
 1. *Remote Remove* removes a remote URL from the repository. 
 1. *Remote Show* shows the shortnames of each remote handle you’ve specified.
+
+**Status** displays the state of the working directory and the staging area. It lets you know if your commits meet the conditions set for the repository you're contributing to.
