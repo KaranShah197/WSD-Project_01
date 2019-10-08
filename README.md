@@ -182,6 +182,13 @@ Example: `cp [OPTION]... SOURCE... DIRECTORY`
     Example: `cd grails followed by double TAB key press`
     ![tab example](/images/tabkey.PNG)
 
+* **Using up and down arrow for history**  
+    As we have seen in the history command above, we can see the history of commands that we have typed so far using the history command and optionally typing the number of commands that we want to see.  
+    There is another way to go back to history commands using the UP Arrow and the DOWN Arrow. In the terminal we can use the UP or DOWN arrows to navigate to the previous commands or next commands.
+
+    Use the up and down key's to scroll through previously typed commands. Press [Enter] to execute them or use the left and right arrow keys to edit the command first.  
+      
+
 
 ## **GitFlow Workflow**
 
