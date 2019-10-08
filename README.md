@@ -218,9 +218,9 @@ GitFlow is branching model for Git. It is ideally suited for projects that have 
 1. **Branch** is a separate copy of the project that can be merged together. A branch is used to isolate development work without affecting other branches in the repository. Each repository has one default branch, and can have multiple other branches. You can merge a branch into another branch using a pull request.
 
 1. **Commit** is a change. It is a difference between the previous and new version. It is a change to one or more files in your branch. Git assigns each commit a unique ID, called a SHA or hash that:
-* tracks the specific changes
-* when the changes were made
-* created the changes
+	* tracks the specific changes
+	* when the changes were made
+	* created the changes
 
 	*Commit Example*  
 	![Commit Image](/images/commit_example.JPG)
@@ -233,8 +233,8 @@ GitFlow is branching model for Git. It is ideally suited for projects that have 
 	![Checkout Image](/images/checkout_example.JPG)
 
 1. **Push** is used to upload local repository content to a remote repository. The git push command takes two arguments:
-- a remote name, for example, origin 
-- a branch name, for example, master
+	- a remote name, for example, origin 
+	- a branch name, for example, master
 
 1. **Pull** is used to fetch and download content from a remote repository and immediately update the local repository to match that content. A pull requests let you tell others about changes you've pushed to a branch in a repository on GitHub. Once a pull request is opened, you can discuss and review the potential changes with collaborators and add follow-up commits before your changes are merged into the base branch.
 
@@ -243,9 +243,9 @@ GitFlow is branching model for Git. It is ideally suited for projects that have 
 
 1. **Remote Add / Remove / Show**
 
-1. *Remote Add* adds a new remote in the directory the repository is stored at. 
-1. *Remote Remove* removes a remote URL from the repository. 
-1. *Remote Show* shows the shortnames of each remote handle you’ve specified.
+	1. *Remote Add* adds a new remote in the directory the repository is stored at. 
+	1. *Remote Remove* removes a remote URL from the repository. 
+	1. *Remote Show* shows the shortnames of each remote handle you’ve specified.
 
 1. **Status** displays the state of the working directory and the staging area. It lets you know if your commits meet the conditions set for the repository you're contributing to.
 
