@@ -21,7 +21,7 @@ The vi (visual) utility is a screen-oriented text editor. Following is the synta
 ![vi example](/images/vi_open.PNG)
 ![vi editor](/images/vi_edit.PNG)
     
-    The following operations shall be supported by vi:
+* The following operations shall be supported by vi:
    * -c `command`      : Specify an initial command to be executed in the first edit buffer loaded from an existing file.
    * -r                : Recover the named files.
    * -R                : Set `readonly` edit option.
