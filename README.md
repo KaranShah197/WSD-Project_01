@@ -192,3 +192,5 @@ GitFlow is branching model for Git. It is ideally suited for projects that have 
 1. *Remote Show* shows the shortnames of each remote handle you’ve specified.
 
 **Status** displays the state of the working directory and the staging area. It lets you know if your commits meet the conditions set for the repository you're contributing to.
+
+**Master Branch** is the default branch in Git. It is the one where all changes eventually get merged back into.
