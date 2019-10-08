@@ -64,7 +64,8 @@ GitFlow is branching model for Git. It is ideally suited for projects that have 
 
 **Pull** is used to fetch and download content from a remote repository and immediately update the local repository to match that content. A pull requests let you tell others about changes you've pushed to a branch in a repository on GitHub. Once a pull request is opened, you can discuss and review the potential changes with collaborators and add follow-up commits before your changes are merged into the base branch.
 
-**Commit** is a change. It is a difference between the previous and new version. It is a change to one or more files in your branch. Git assigns each commit a unique ID, called a SHA or hash that:
-* tracks the specific changes
-* when the changes were made
-* created the changes
+**Remote Add / Remove / Show**
+
+1. *Remote Add* adds a new remote in the directory the repository is stored at. 
+1. *Remote Remove* removes a remote URL from the repository. 
+1. *Remote Show* shows the shortnames of each remote handle you’ve specified.
