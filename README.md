@@ -160,7 +160,7 @@ GitFlow is branching model for Git. It is ideally suited for projects that have 
 * *Merge the code*
 * *Deploy code*
 
-![GitFlow Image](/images/GitFlow.PNG)
+![GitFlow Image](/images/GitFlow.png)
 
 ## **Terminology**
 
