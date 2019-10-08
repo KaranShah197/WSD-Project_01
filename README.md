@@ -29,7 +29,7 @@ The vi (visual) utility is a screen-oriented text editor. Following is the synta
    * -w `size`         : Set the value of the `window` editor option to size.
 
 
-* **CD Command**  
+1. **CD Command**  
     cd - change the working directory.  
     This command will allow you to change the working directories through terminal. Using cd we can change the working directory to any directory on machine.
     We can provide the relative path or absolute path to the same.  
@@ -43,7 +43,7 @@ The vi (visual) utility is a screen-oriented text editor. Following is the synta
     eg: cd ..  
     More details can be found at (http://man7.org/linux/man-pages/man1/cd.1p.html).  
 
-* **mkdir Command**  
+1. **mkdir Command**  
     mkdir - It will allow you to create new directory(s) (Make directory). It has the following syntax:  
     `mkdir [option] directory_name(s)`  
     Example: `mkdir music` it will create a diectory called music.
@@ -52,7 +52,7 @@ The vi (visual) utility is a screen-oriented text editor. Following is the synta
     We can also specify the multiple directory names.  
 Example: `mkdir music video photo`
 
-* **cp command**  
+1. **cp command**  
     cp - copy files and direcories.  
     Copy SOURCE to DEST, or multiple SOURCE(s) to DEST.  
     Example: `cp [OPTION]... SOURCE... DIRECTORY`
@@ -70,7 +70,7 @@ Example: `mkdir music video photo`
     
     We can pass many more agruments to copy command. Please [click here](http://man7.org/linux/man-pages/man1/cp.1.html) to view the same.
 
-* **pwd command**  
+1. **pwd command**  
     pwd - It prints the name of current working directory. It can be written as follow:  
     `pwd [OPTION]...`  
 
@@ -83,7 +83,7 @@ Example: `mkdir music video photo`
     * --version  
         output version information and exit  
 
-* **mv command**  
+1. **mv command**  
     mv - It is used to move or rename files. It can be written as follow:  
     `mv [OPTION]... SOURCE... DIRECTORY`
 Example: `cp [OPTION]... SOURCE... DIRECTORY`
@@ -100,7 +100,7 @@ Example: `cp [OPTION]... SOURCE... DIRECTORY`
     If you specify more than one of -i, -f, -n, only the final one takes effect.  
     To view entire list of arguments [click here](http://man7.org/linux/man-pages/man1/mv.1.html).
 
-* **rm command**  
+1. **rm command**  
     rm - It will remove the file(s) or directory(s). rm removes each specified file. By default, it does not remove directories. We need to use --recursive (or -r or -R).    
     `rm [OPTION]... [FILE]...`  
 
@@ -120,7 +120,7 @@ Example: `cp [OPTION]... SOURCE... DIRECTORY`
     
     To know more about rm command, please refer [this](https://linux.die.net/man/1/rm) link.
 
-* **history command**  
+1. **history command**  
     history - A GNU History Library. Many programs read input from the user a line at a time. The GNU History library is able to keep track of those lines, associate arbitrary data with each line, and utilize information from previous lines in composing new ones.  
    
     The history command can be used to list Bash's log of the commands you have typed. This log is called the “history”. To access it type: `history n`  s
@@ -130,7 +130,7 @@ Example: `cp [OPTION]... SOURCE... DIRECTORY`
     This will only list the last n commands. Type “history” (without options) to see the the entire history list.  
     References: http://man7.org/linux/man-pages/man3/history.3.html, https://linux.die.net/Linux-CLI/x1712.htm  
 
-* **home directory and tilde**
+1. **home directory and tilde**
     1. **Home directory**
         A `home directory` also called a `login directory` is a file system directory on Unix-like operating systems that serves as the repository containing a personal  files, directories and programs for a given user of the system. It is also the directory that a user is first in after logging into the system.  
 
@@ -148,7 +148,7 @@ Example: `cp [OPTION]... SOURCE... DIRECTORY`
 
     More information can be found at http://www.linfo.org/home_directory.html  
 
-* **file paths in linux**  
+1. **file paths in linux**  
     A file path is the human-readable representation of a file or folder’s location on a computer system. All files on linux machine's drive are in the system’s base (root) directory. Even external drives are brought into this root directory.  
 
     Files and folders on Linux are given names containing the usual components like the letters, numbers, and other characters on a keyboard. A path is a unique location to a file or a folder in a file system of an OS. A path to a file is a combination of / and alpha-numeric characters. That’s why you often see files listed in the format `/usr/bin/python3` or `/etc/os-release`. The forward slashes indicate that one item is stored inside of the item preceding it.  
@@ -173,7 +173,7 @@ Example: `cp [OPTION]... SOURCE... DIRECTORY`
 
     More information can be found at: https://opensource.com/article/19/8/understanding-file-paths-linux  
 
-* **Using the tab key to complete file paths**  
+1. **Using the tab key to complete file paths**  
     Tab completion is an extremely helpful feature in the Bash shell on Linux, or a terminal window on Mac OS X. Tab completion is an essential trick. It’s a great time saver and it’s also useful if you’re not sure of a file or command’s exact name.  
 
     For example, lets say, I want to move inside the images directory then I can just type `cd im` followed by the TAB key press. It will automatically complete the path.  
@@ -182,7 +182,7 @@ Example: `cp [OPTION]... SOURCE... DIRECTORY`
     Example: `cd grails followed by double TAB key press`
     ![tab example](/images/tabkey.PNG)
 
-* **Using up and down arrow for history**  
+1. **Using up and down arrow for history**  
     As we have seen in the history command above, we can see the history of commands that we have typed so far using the history command and optionally typing the number of commands that we want to see.  
     There is another way to go back to history commands using the UP Arrow and the DOWN Arrow. In the terminal we can use the UP or DOWN arrows to navigate to the previous commands or next commands.
 
@@ -206,47 +206,47 @@ GitFlow is branching model for Git. It is ideally suited for projects that have 
 
 ## **Terminology**
 
-**Repository** is a git project. It contains all of the project's files and stores each file's revision history.
+1. **Repository** is a git project. It contains all of the project's files and stores each file's revision history.
 
-**Clone** is used to target an existing repository and create a copy of the target repository. When you create a repository on GitHub, it exists as a remote repository. You can clone your repository to create a local copy on your computer and sync between the two locations. 
+1. **Clone** is used to target an existing repository and create a copy of the target repository. When you create a repository on GitHub, it exists as a remote repository. You can clone your repository to create a local copy on your computer and sync between the two locations. 
 
-**Clone Example**  
+*Clone Example*  
 ![Clone Image](/images/clone_example.JPG)
 
-**Fork** is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project. Most commonly, forks are used to either propose changes to someone else's project or to use someone else's project as a starting point for your own idea.
+1. **Fork** is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project. Most commonly, forks are used to either propose changes to someone else's project or to use someone else's project as a starting point for your own idea.
 
-**Branch** is a separate copy of the project that can be merged together. A branch is used to isolate development work without affecting other branches in the repository. Each repository has one default branch, and can have multiple other branches. You can merge a branch into another branch using a pull request.
+1. **Branch** is a separate copy of the project that can be merged together. A branch is used to isolate development work without affecting other branches in the repository. Each repository has one default branch, and can have multiple other branches. You can merge a branch into another branch using a pull request.
 
-**Commit** is a change. It is a difference between the previous and new version. It is a change to one or more files in your branch. Git assigns each commit a unique ID, called a SHA or hash that:
+1. **Commit** is a change. It is a difference between the previous and new version. It is a change to one or more files in your branch. Git assigns each commit a unique ID, called a SHA or hash that:
 * tracks the specific changes
 * when the changes were made
 * created the changes
 
-**Commit Example**  
+*Commit Example*  
 ![Commit Image](/images/commit_example.JPG)
 
-**Merge** is to put two branches (two version) together. It is used to merge a pull request into the upstream branch when work is completed. Anyone with push access to the repository can complete the merge.
+1. **Merge** is to put two branches (two version) together. It is used to merge a pull request into the upstream branch when work is completed. Anyone with push access to the repository can complete the merge.
 
-**Checkout** is used to navigate between branches created by git branch. Checking out a branch updates the files in the working directory to match the version stored in that branch and it tells Git to record all new commits on that branch.
+1. **Checkout** is used to navigate between branches created by git branch. Checking out a branch updates the files in the working directory to match the version stored in that branch and it tells Git to record all new commits on that branch.
 
-**Checkout Example**  
+*Checkout Example*  
 ![Checkout Image](/images/checkout_example.JPG)
 
-**Push** is used to upload local repository content to a remote repository. The git push command takes two arguments:
+1. **Push** is used to upload local repository content to a remote repository. The git push command takes two arguments:
 - a remote name, for example, origin 
 - a branch name, for example, master
 
-**Pull** is used to fetch and download content from a remote repository and immediately update the local repository to match that content. A pull requests let you tell others about changes you've pushed to a branch in a repository on GitHub. Once a pull request is opened, you can discuss and review the potential changes with collaborators and add follow-up commits before your changes are merged into the base branch.
+1. **Pull** is used to fetch and download content from a remote repository and immediately update the local repository to match that content. A pull requests let you tell others about changes you've pushed to a branch in a repository on GitHub. Once a pull request is opened, you can discuss and review the potential changes with collaborators and add follow-up commits before your changes are merged into the base branch.
 
-**Pull Example**  
+*Pull Example*  
 ![Pull Image](/images/pull_example.JPG)
 
-**Remote Add / Remove / Show**
+1. **Remote Add / Remove / Show**
 
 1. *Remote Add* adds a new remote in the directory the repository is stored at. 
 1. *Remote Remove* removes a remote URL from the repository. 
 1. *Remote Show* shows the shortnames of each remote handle you’ve specified.
 
-**Status** displays the state of the working directory and the staging area. It lets you know if your commits meet the conditions set for the repository you're contributing to.
+1. **Status** displays the state of the working directory and the staging area. It lets you know if your commits meet the conditions set for the repository you're contributing to.
 
-**Master Branch** is the default branch in Git. It is the one where all changes eventually get merged back into.
+1. **Master Branch** is the default branch in Git. It is the one where all changes eventually get merged back into.
