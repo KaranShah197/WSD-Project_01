@@ -1,6 +1,23 @@
 # Changelog  
 All notable changes to this project will be documented in this file.  
 
+## [1.1.2] - 2019-10-07
+
+### Added
+- MKDIR command description (Karan Shah)
+- CP command description (Karan Shah)
+- PWD command description (Karan Shah)
+- MV command description (Karan Shah)
+- RM command description (Karan Shah)
+- HISTORY command description (Karan Shah)
+- Home directory and Tilde(~) description (Karan Shah)
+
+## Changed
+- Added link description (Karan Shah)
+- Layout fix (Karan Shah)
+- Format fix (Karan Shah)
+- view fix (Karan Shah)
+
 ## [1.1.1] - 2019-10-07
 
 ### Added
@@ -21,7 +38,7 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 - Description for VI commands (Karan Shah)
-- Changelog file (Karan Shah
+- Changelog file (Karan Shah)
 
 ### Changed
 - Fixed the imange display (Karan Shah)
