@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 ## [1.1.4] - 2019-10-08
 
 ### Added
+- Images for Commit, Clone, Pull and Checkout (Yesha Majmudar)
 - Home directory description (Karan Shah)
 - File paths in Linux description (Karan Shah)
 - Description for Autocompletion with TAB key (Karan Shah)
