@@ -1,6 +1,18 @@
 # Changelog  
 All notable changes to this project will be documented in this file.  
 
+## [1.1.3] - 2019-10-07
+
+### Added
+- Definition of Remote Add/Remove/Show (Yesha Majmudar)
+- Status Definition (Yesha Majmudar)
+- Master Branch Definition (Yesha Majmudar)
+- (Yesha Majmudar)
+- (Yesha Majmudar)
+
+### Changed
+- Inline code mark down (Yesha Majmudar)
+
 ## [1.1.2] - 2019-10-07
 
 ### Added
