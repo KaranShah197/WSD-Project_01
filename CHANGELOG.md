@@ -1,6 +1,25 @@
 # Changelog  
 All notable changes to this project will be documented in this file.  
 
+## [1.1.4] - 2019-10-08
+
+### Added
+- Home directory description (Karan Shah)
+- File paths in Linux description (Karan Shah)
+- Description for Autocompletion with TAB key (Karan Shah)
+- View history with UP and Down arrow  (Karan Shah)
+- ChANGELOG.md file
+
+
+### Changed
+- image for gitflow (Yesha Majmudar)
+- content formating (Karan Shah)
+
+### Removed
+- history description (Karan Shah)
+- removed the changelog.txt file
+
+
 ## [1.1.3] - 2019-10-07
 
 ### Added
