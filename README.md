@@ -121,9 +121,8 @@ Example: `cp [OPTION]... SOURCE... DIRECTORY`
     To know more about rm command, please refer [this](https://linux.die.net/man/1/rm) link.
 
 * **history command**  
-    history - A GNU History Library. Many programs read input from the user a line at a time.  The GNU History library is able to keep track of those lines, associate arbitrary data with each line, and utilize information from previous lines in composing new ones.  
-
-    Use the up and down key's to scroll through previously typed commands. Press [Enter] to execute them or use the left and right arrow keys to edit the command first.   
+    history - A GNU History Library. Many programs read input from the user a line at a time. The GNU History library is able to keep track of those lines, associate arbitrary data with each line, and utilize information from previous lines in composing new ones.  
+   
     The history command can be used to list Bash's log of the commands you have typed. This log is called the “history”. To access it type: `history n`  
 
     Example: `history 15`
