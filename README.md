@@ -161,7 +161,7 @@ GitFlow is branching model for Git. It is ideally suited for projects that have 
 * *Deploy code*
 
 
-###GitFlow Workflow Example
+### GitFlow Workflow Example
 ![GitFlow Image](/images/gitflow_workflow.png)
 
 ## **Terminology**
