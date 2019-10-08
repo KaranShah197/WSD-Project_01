@@ -123,14 +123,14 @@ Example: `cp [OPTION]... SOURCE... DIRECTORY`
 * **history command**  
     history - A GNU History Library. Many programs read input from the user a line at a time. The GNU History library is able to keep track of those lines, associate arbitrary data with each line, and utilize information from previous lines in composing new ones.  
    
-    The history command can be used to list Bash's log of the commands you have typed. This log is called the “history”. To access it type: `history n`  
+    The history command can be used to list Bash's log of the commands you have typed. This log is called the “history”. To access it type: `history n`  s
 
     Example: `history 15`
 
     This will only list the last n commands. Type “history” (without options) to see the the entire history list.  
     References: http://man7.org/linux/man-pages/man3/history.3.html, https://linux.die.net/Linux-CLI/x1712.htm  
 
-* **Home directory and ~**
+* **home directory and tilde**
     1. **Home directory**
         A `home directory` also called a `login directory` is a file system directory on Unix-like operating systems that serves as the repository containing a personal  files, directories and programs for a given user of the system. It is also the directory that a user is first in after logging into the system.  
 
