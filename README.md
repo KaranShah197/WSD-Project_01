@@ -146,7 +146,32 @@ Example: `cp [OPTION]... SOURCE... DIRECTORY`
             `cd ~`  
         The ~user shorthand variable refers to a user's home directory.(allowing the user to navigate to it from anywhere else in the filesystem, or use it in other Unix commands).  
 
-More information can be found at http://www.linfo.org/home_directory.html
+    More information can be found at http://www.linfo.org/home_directory.html
+
+* **file paths in linux**  
+    A file path is the human-readable representation of a file or folder’s location on a computer system. All files on linux machine's drive are in the system’s base (root) directory. Even external drives are brought into this root directory.  
+
+    Files and folders on Linux are given names containing the usual components like the letters, numbers, and other characters on a keyboard. A path is a unique location to a file or a folder in a file system of an OS. A path to a file is a combination of / and alpha-numeric characters. That’s why you often see files listed in the format `/usr/bin/python3` or `/etc/os-release`. The forward slashes indicate that one item is stored inside of the item preceding it.  
+
+    There are two types of filepaths in Linux System, Absolute path and relative path.  
+    1. **Absolute paths**  
+        An absolute path is defined as the specifying the location of a file or directory from the root directory(/). To write an absolute path-name:
+        * Start at the root directory ( / ) and work down.
+        * Write a slash ( / ) after every directory name (last one is optional)
+        Example:  `vi /home/kvs32/abc.sql`  
+        Even if file is in same directory we have written absolute path to access it.
+    
+    1. **Relative paths**
+        Relative path is defined as the path related to the present working directly(pwd). It starts at your current directory and never starts with a `/` .  
+
+        UNIX offers a shortcut in the relative pathname– that uses either the current or parent directory as reference and specifies the path relative to it. A relative path-name uses one of these cryptic symbols:  
+
+        `.(a single dot) - this represents the current directory.`  
+        `..(two dots) - this represents the parent directory.` 
+        Example:   
+        `Changing the directory with relatvie path:  cd music`  
+
+    More information can be found at: https://opensource.com/article/19/8/understanding-file-paths-linux
 
 
 ## **GitFlow Workflow**
