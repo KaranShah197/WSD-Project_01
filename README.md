@@ -167,9 +167,9 @@ Example: `cp [OPTION]... SOURCE... DIRECTORY`
         UNIX offers a shortcut in the relative pathname– that uses either the current or parent directory as reference and specifies the path relative to it. A relative path-name uses one of these cryptic symbols:  
 
         `.(a single dot) - this represents the current directory.`  
-        `..(two dots) - this represents the parent directory.` 
+        `..(two dots) - this represents the parent directory.`  
         Example:   
-        `Changing the directory with relatvie path:  cd music`  
+            `Changing the directory with relatvie path:  cd music`  
 
     More information can be found at: https://opensource.com/article/19/8/understanding-file-paths-linux
 
