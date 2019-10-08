@@ -210,8 +210,8 @@ GitFlow is branching model for Git. It is ideally suited for projects that have 
 
 1. **Clone** is used to target an existing repository and create a copy of the target repository. When you create a repository on GitHub, it exists as a remote repository. You can clone your repository to create a local copy on your computer and sync between the two locations. 
 
-*Clone Example*  
-![Clone Image](/images/clone_example.JPG)
+	*Clone Example*  
+	![Clone Image](/images/clone_example.JPG)
 
 1. **Fork** is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project. Most commonly, forks are used to either propose changes to someone else's project or to use someone else's project as a starting point for your own idea.
 
@@ -222,15 +222,15 @@ GitFlow is branching model for Git. It is ideally suited for projects that have 
 * when the changes were made
 * created the changes
 
-*Commit Example*  
-![Commit Image](/images/commit_example.JPG)
+	*Commit Example*  
+	![Commit Image](/images/commit_example.JPG)
 
 1. **Merge** is to put two branches (two version) together. It is used to merge a pull request into the upstream branch when work is completed. Anyone with push access to the repository can complete the merge.
 
 1. **Checkout** is used to navigate between branches created by git branch. Checking out a branch updates the files in the working directory to match the version stored in that branch and it tells Git to record all new commits on that branch.
 
-*Checkout Example*  
-![Checkout Image](/images/checkout_example.JPG)
+	*Checkout Example*  
+	![Checkout Image](/images/checkout_example.JPG)
 
 1. **Push** is used to upload local repository content to a remote repository. The git push command takes two arguments:
 - a remote name, for example, origin 
@@ -238,8 +238,8 @@ GitFlow is branching model for Git. It is ideally suited for projects that have 
 
 1. **Pull** is used to fetch and download content from a remote repository and immediately update the local repository to match that content. A pull requests let you tell others about changes you've pushed to a branch in a repository on GitHub. Once a pull request is opened, you can discuss and review the potential changes with collaborators and add follow-up commits before your changes are merged into the base branch.
 
-*Pull Example*  
-![Pull Image](/images/pull_example.JPG)
+	*Pull Example*  
+	![Pull Image](/images/pull_example.JPG)
 
 1. **Remote Add / Remove / Show**
 
