@@ -87,7 +87,7 @@ Example: `mkdir music video photo`
     mv - It is used to move or rename files. It can be written as follow:  
     `mv [OPTION]... SOURCE... DIRECTORY`
 Example: `cp [OPTION]... SOURCE... DIRECTORY`
-![ example](/images/mv_command.PNG)
+![mv example](/images/mv_command.PNG)
 
     It will move the README_BACKUP.md file to the /music directory. We can compare it with CP command. The only difference is instead of copying into new Destination it moves to the new Destination. Following optional arguments can be passed:  
     * -f, --force  
@@ -146,7 +146,7 @@ Example: `cp [OPTION]... SOURCE... DIRECTORY`
             `cd ~`  
         The ~user shorthand variable refers to a user's home directory.(allowing the user to navigate to it from anywhere else in the filesystem, or use it in other Unix commands).  
 
-    More information can be found at http://www.linfo.org/home_directory.html
+    More information can be found at http://www.linfo.org/home_directory.html  
 
 * **file paths in linux**  
     A file path is the human-readable representation of a file or folder’s location on a computer system. All files on linux machine's drive are in the system’s base (root) directory. Even external drives are brought into this root directory.  
@@ -171,7 +171,16 @@ Example: `cp [OPTION]... SOURCE... DIRECTORY`
         Example:   
             `Changing the directory with relatvie path:  cd music`  
 
-    More information can be found at: https://opensource.com/article/19/8/understanding-file-paths-linux
+    More information can be found at: https://opensource.com/article/19/8/understanding-file-paths-linux  
+
+* **Using the tab key to complete file paths**  
+    Tab completion is an extremely helpful feature in the Bash shell on Linux, or a terminal window on Mac OS X. Tab completion is an essential trick. It’s a great time saver and it’s also useful if you’re not sure of a file or command’s exact name.  
+
+    For example, lets say, I want to move inside the images directory then I can just type `cd im` followed by the TAB key press. It will automatically complete the path.  
+    However, if there are 2 or more folders with matching letters that we have types then on press of touble TAB key it will give you all matching folder names.  
+
+    Example: `cd grails followed by double TAB key press`
+    ![tab example](/images/tabkey.PNG)
 
 
 ## **GitFlow Workflow**
