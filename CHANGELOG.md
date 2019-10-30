@@ -1,6 +1,15 @@
 # Changelog  
 All notable changes to this project will be documented in this file.  
 
+## [1.1.5] - 2019-10-29
+
+### Added
+- LINUXFILESYSTEM.md file, which contain the basic commands for linyx file systems
+- GITCOMMANDS.md file, which contains the basic git commands
+
+### Changed
+- README.md file, to remove the content from it
+
 ## [1.1.4] - 2019-10-08
 
 ### Added
