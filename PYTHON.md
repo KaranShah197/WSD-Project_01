@@ -111,6 +111,58 @@ Classes provide a means of bundling data and functionality together. Creating a 
 		...
 	```
 
+### 5. Object
+
+An object is created using the constructor of the class. This object will then be called the  `instance`  of the class. In Python we create instances in the following manner
+
+```python
+	Instance = class(arguments)
+```
+
+We can instantiate class  `Snake`  defined above in class description with a variable  `snake`  and then change the name with the method  `change_name`.
+
+```python
+	>>> # instantiate the class
+	>>> snake = Snake()
+
+	>>> # print the current object name 
+	>>> print(snake.name)
+	python
+
+	>>> # change the name using the change_name method
+	>>> snake.change_name("anaconda")
+	>>> print(snake.name)
+	anaconda
+```
+
+- ### Instance attributes in python and the init method
+
+	You can also provide the values for the attributes at runtime. This is done by defining the attributes inside the init method. The following example illustrates this.
+
+	```python
+		class Snake:
+
+		    def __init__(self, name):
+		        self.name = name
+
+		    def change_name(self, new_name):
+		        self.name = new_name
+	```
+
+	Now we can directly define separate attribute values for separate objects. For example,
+
+	```python
+		>>> # two variables are instantiated
+		>>> python = Snake("python")
+		>>> anaconda = Snake("anaconda")
+
+		>>> # print the names of the two variables
+		>>> print(python.name)
+		python
+		>>> print(anaconda.name)
+		anaconda
+	```
+
 ### 9. Exception
 An exception is an error that happens during execution of a program. When that
 error occurs, python generate an exception that can be handled, which avoids your program to crash. A Python program terminates as soon as it encounters an error.
