@@ -162,6 +162,63 @@ We can instantiate class  `Snake`  defined above in class description with a var
 		>>> print(anaconda.name)
 		anaconda
 	```
+### 6. Static
+
+ _`Static`_ means, that the member is on a class level rather on the instance level. Static variables exist only in single instance per class and are not instantiated. If a static variable is changed in one instance of the class, the change will affect its value in all other instances. `Class or static` variables are shared by all objects. Instance or non-static variables are different for different objects (every object has a copy of it).
+
+Static methods don’t refer to any instance of the class and can be called outside of it. They also cannot access any non-static data members of the class for obvious reasons. Let’s have a look how to get some static from Python.
+
+- ### Variables
+
+	All variables defined on the class level in Python are considered static. See this example:
+	
+	```python
+		class Example:
+		    staticVariable = 5 # Access through class
+
+		print Example.staticVariable # prints 5
+
+		# Access through an instance
+		instance = Example()
+		print instance.staticVariable # still 5
+
+		# Change within an instance
+		instance.staticVariable = 6
+		print instance.staticVariable # 6
+		print Example.staticVariable # 5
+
+		# Change through
+		class Example.staticVariable = 7
+		print instance.staticVariable # still 6
+		print Example.staticVariable # now 7
+	```
+- ### Methods
+
+	With static methods it gets a little more complex. In Python, there are two ways of defining static methods within a class.
+
+	- ### @staticmethod
+
+		Method decorated with this decorator shares with the class only the namespace. Note that, no arguments are mandatory in the method definition. Static method can access classes static variables. See in the following example:
+
+		```python
+		class Example:
+		    name = "Example"
+
+		    @staticmethod
+		    def static():
+		        print "%s static() called" % Example.name
+
+		class Offspring1(Example):
+		    name = "Offspring1"
+
+		    @staticmethod
+		    def static():
+		        print "%s static() called" % Offspring2.name
+
+		Example.static() # prints Example
+		Offspring1.static() # prints Example
+		Offspring2.static() # prints Offspring2
+		```
 
 ### 9. Exception
 An exception is an error that happens during execution of a program. When that
