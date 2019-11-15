@@ -1,6 +1,11 @@
 # Changelog  
 All notable changes to this project will be documented in this file.
 
+## [1.1.6] - 2019-11-15
+
+### Added
+- Defined Pythin Indentation to control flow (Karan Shah)
+
 ## [1.1.6] - 2019-11-14
 
 ### Added
