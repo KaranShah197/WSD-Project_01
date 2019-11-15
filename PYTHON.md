@@ -118,3 +118,20 @@ class DerivedClassName(BaseClassName):
 ```
 
 For more information on extend class, visit [https://www.python-course.eu/python3_inheritance.php](https://www.python-course.eu/python3_inheritance.php).
+
+### 15. CSV Files
+Data in the form of tables is also called CSV (comma separated values) - literally "comma-separated values." This is a text format intended for the presentation of tabular data. Each line of the file is one line of the table. The values of individual columns are separated by a separator symbol - a comma `(,)`, a semicolon `(;)` or another symbol. CSV can be easily read and processed by Python.
+
+Python provides a CSV module to handle CSV files. To read/write data, you need to loop through rows of the CSV. You need to use the split method to get data from specified columns.
+
+To read data from CSV files, you must use the reader function to generate a reader object.
+
+**CSV Reader Module Example**
+```
+import necessary modules
+import csv
+with open('X:\data.csv','rt')as f:
+  data = csv.reader(f)
+  for row in data:
+        print(row)
+```
