@@ -107,3 +107,14 @@ hello_decorator = gfg_decorator(hello_decorator)
 ```
 
 For more information on Decorator, visit [https://www.geeksforgeeks.org/decorators-in-python/](https://www.geeksforgeeks.org/decorators-in-python/).
+
+### 14. Extend Class
+Extend class is also known as inheritance. It is the mechanism of deriving new classes from existing ones. By doing this we get a hierarchy of classes. In most class-based object-oriented languages, an object created through inheritance (a *"child object"*) acquires all, - though there are exceptions in some programming languages, - of the properties and behaviors of the parent object.
+
+**Syntax for Extend Class**:
+```
+class DerivedClassName(BaseClassName):
+    pass
+```
+
+For more information on extend class, visit [https://www.python-course.eu/python3_inheritance.php](https://www.python-course.eu/python3_inheritance.php).
