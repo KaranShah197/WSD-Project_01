@@ -285,6 +285,45 @@ As an object-oriented language, Python provides two scopes for attributes: class
 			['__doc__', '__init__', '__module__', 'name', 'salary', 'show']
 	```
 
+### 8. Method
+
+Python has both concept of Method and Function. Following are the properties of Python Method:
+
+**Python Method**
+
+	1.  Method is called by its name, but it is  **associated to an object**  (dependent).
+	2.  A method is  **implicitly passed the object**  on which it is invoked.
+	3.  It  **may or may not return any data.**
+	4.  A method  **can operate on the data (instance variables) that is contained by the corresponding class**
+
+A Python method is a label that you can call on an object; it is a piece of code to execute on that object. A Python method is like a Python function, but it must be called on an object. And to create it, you must put it inside a class.
+
+- **Basic Method Structure in Python :**
+	```python
+		# Basic Python method 
+		class class_name 
+			def method_name () : 
+				...... 
+				# method body 
+				...... 
+	```
+It has 2 types of methods, user-defined methods and built-in methods. We can also condiser constructor as methods. Following exaple shows all the types of methods in python.
+
+```python
+	import  math
+	
+	
+	class Animal:
+		ceil_val = math.ceil(15.25) #calling built-in method
+		print("Ceiling value of 15.25 is : ", ceil_val)
+		
+		def __init__(self,species,gender):	#Constructor
+			self.species=species
+			self.gender=gender
+		def method_test (self):
+			print("I am user defined method in method_test of Animal class. ")
+```
+
 
 ### 9. Exception
 An exception is an error that happens during execution of a program. When that
