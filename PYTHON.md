@@ -1,4 +1,3 @@
-
 # Python
 
 ### 1. How Python uses Indentation to control Flow
@@ -25,6 +24,22 @@ Python’s syntax is quite flexible in terms of what it defines as a whitespace 
 
 While Python’s syntax is relatively forgiving, I am not: the  [standard style](https://www.python.org/dev/peps/pep-0008/#indentation)  for indenting in Python is to  **use four space characters**  for each level of indentation. It is strongly advised that you adhere to this standard. Most IDEs and consoles (including Jupyter notebooks) will automatically add a four-space indentation for you when you enter into the body of one of the aforementioned constructs.
 
+### 2. Don't Repeat Yourself
+
+**Don't repeat yourself** (**DRY**, or sometimes **do not repeat yourself**) is a principle of "Software development process"  aimed at reducing repetition of software patterns, replacing it with abstractions or using "Data normalization" to avoid redundancy.
+
+The DRY principle is stated as "Every piece of knowledge must have a single, unambiguous, authoritative representation within a system". The principle has been formulated by Andy Hunt Dave Thomas in their book  The Pragmatic Programmer. They apply it quite broadly to include "Database schema", "Test plan", the "Software build" system, even "Software documentation". 
+
+When the DRY principle is applied successfully, a modification of any single element of a system does not require a change in other logically unrelated elements. Additionally, elements that are logically related all change predictably and uniformly, and are thus kept in Synchronization. 
+
+**This code sample from the lesson illustrates how to apply DRY:**
+```python
+name = 'Mahdi'
+people_i_like = ['Mahdi', 'John', 'Linda']
+if name in people_i_like:
+    print 'yay!'
+```
+    
 ### 9. Exception
 An exception is an error that happens during execution of a program. When that
 error occurs, python generate an exception that can be handled, which avoids your program to crash. A Python program terminates as soon as it encounters an error.
