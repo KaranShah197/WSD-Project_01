@@ -64,3 +64,31 @@ def __init__(self):
 ```
 
 For more information on constructor, visit [https://www.geeksforgeeks.org/constructors-in-python/](https://www.geeksforgeeks.org/constructors-in-python/).
+
+### 12. Factory
+Factory is an ambiguous term that stands for a function, method or class that supposed to be producing something. Most commonly, factories produce objects. But they may also produce files, records in databases, etc.
+
+For instance, any of these things may be casually referenced as a *“factory”*:
+
+- a function or method that creates a program’s GUI;
+- a class that creates users;
+- static method that calls a class constructor in a certain way;
+- one of the creational design patterns.
+
+Here's an example of factory method:
+
+```
+class UserFactory {
+    public static function create($type) {
+        switch ($type) {
+            case 'user': return new User();
+            case 'customer': return new Customer();
+            case 'admin': return new Admin();
+            default:
+                throw new Exception('Wrong user type passed.');
+        }
+    }
+}
+```
+
+For more information on factory, visit [https://refactoring.guru/design-patterns/factory-comparison](https://refactoring.guru/design-patterns/factory-comparison).
