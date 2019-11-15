@@ -137,3 +137,24 @@ with open('X:\data.csv','rt')as f:
 ```
 
 For more information on CSV Files, visit [https://www.guru99.com/python-csv.html](https://www.guru99.com/python-csv.html).
+
+### 16. Reading Files
+Python provides inbuilt functions for reading files. There are two types of files that can be handled in python, normal text files and binary files.
+- **Text files**: In this type of file, Each line of text is terminated with a special character called EOL (End of Line), which is the new line character (‘\n’) in python by default.
+- **Binary files**: In this type of file, there is no terminator for a line and the data is stored after converting it into machine understandable binary language.
+
+There are three ways to read data from a text file.
+1. `read()` : Returns the read bytes in form of a string. Reads n bytes, if no n specified, reads the entire file.
+    ```
+    File_object.read([n])
+    ```
+2. `readline()` : Reads a line of the file and returns in form of a string.For specified n, reads at most n bytes. However, does not reads more than one line, even if n exceeds the length of the line.
+    ```
+    File_object.readline([n])
+    ```
+3. `readlines()` : Reads all the lines and return them as each line a string element in a list.
+    ```
+    File_object.readlines()
+    ```
+    
+For more information on reading files, visit [https://www.geeksforgeeks.org/reading-writing-text-files-python/](https://www.geeksforgeeks.org/reading-writing-text-files-python/).
