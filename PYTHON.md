@@ -220,6 +220,72 @@ Static methods don’t refer to any instance of the class and can be called outs
 		Offspring2.static() # prints Offspring2
 		```
 
+### 7. Property / Attribute
+
+As an object-oriented language, Python provides two scopes for attributes: class attributes and instance attributes. While the instance attribute in Python has exactly the same characteristics and definition as the other object-oriented languages, the class attribute is always mistakingly considered to be the exact equivalent of the static attribute in Java or C++. To be accurate, class attributes in Python and static attributes in Java or C++ have a lot in common, however, they have behavioral differences that I will highlight in this article.
+
+- Class attributes
+	Class attribut1es belong to the class itself they will be shared by all the instances. Such attributes are defined in the class body parts usually at the top, for legibility.
+
+	**Python Class with Class attributes**
+	```python
+		# Write Python code here 
+		class sampleclass: 
+			count = 0	 # class attribute 
+
+			def increase(self): 
+				sampleclass.count += 1
+
+		# Calling increase() on an object 
+		s1 = sampleclass() 
+		s1.increase()		 
+		print s1.count 
+
+		# Calling increase on one more 
+		# object 
+		s2 = sampleclass() 
+		s2.increase() 
+		print s2.count 
+
+		print sampleclass.count 
+		>>>
+		>>>
+		# Output:
+		1
+		2
+		2
+	```
+- Instance Attribute
+	Unlike class attributes, instance attributes are not shared by objects. Every object has its own copy of the instance attribute (In case of class attributes all object refer to single copy).
+
+	To list the attributes of an instance/object, we have two functions:-  
+	1. vars()- This function displays the attribute of an instance in the form of an dictionary.  
+	2. dir()- This function displays more attributes than vars function,as it is not limited to instance. It displays the class attributes as well.
+
+	**Python Class with Instance attributes**	
+	```python
+		# Python program to demonstrate 
+		# instance attributes. 
+		class emp: 
+			def __init__(self): 
+				self.name = 'xyz'
+				self.salary = 4000
+
+			def show(self): 
+				print self.name 
+				print self.salary 
+
+		e1 = emp() 
+		print "Dictionary form :", vars(e1) 
+		print dir(e1) 
+		>>>
+		>>>
+		# Output:
+			Dictionary form :{'salary': 4000, 'name': 'xyz'}
+			['__doc__', '__init__', '__module__', 'name', 'salary', 'show']
+	```
+
+
 ### 9. Exception
 An exception is an error that happens during execution of a program. When that
 error occurs, python generate an exception that can be handled, which avoids your program to crash. A Python program terminates as soon as it encounters an error.
