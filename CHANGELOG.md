@@ -4,7 +4,14 @@ All notable changes to this project will be documented in this file.
 ## [1.1.6] - 2019-11-15
 
 ### Added
-- Defined Pythin Indentation to control flow (Karan Shah)
+- Defined Python Indentation to control flow (Karan Shah)
+- Defined Don't Repeat Yourself(DRY) concept (Karan Shah)
+- Defined Python Design Patterns from Gang of Four (Karan Shah)
+- Defined Python Class (Karan Shah)
+- Defined Python Object (Karan Shah)
+- Defined Python Static (Karan Shah)
+- Defined Python Property / Attribute (Karan Shah)
+- Defined Python Method (Karan Shah)
 
 ## [1.1.6] - 2019-11-14
 
