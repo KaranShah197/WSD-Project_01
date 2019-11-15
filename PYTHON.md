@@ -92,3 +92,18 @@ class UserFactory {
 ```
 
 For more information on factory, visit [https://refactoring.guru/design-patterns/factory-comparison](https://refactoring.guru/design-patterns/factory-comparison).
+
+### 13. Decorator
+Decorators are very powerful and useful tool in Python since it allows programmers to modify the behavior of function or class. Decorators allow us to wrap another function in order to extend the behavior of wrapped function, without permanently modifying it.
+
+In Decorators, functions are taken as the argument into another function and then called inside the wrapper function.
+
+**Syntax for Decorator**:
+```
+def hello_decorator(): 
+    print("Gfg") 
+      
+hello_decorator = gfg_decorator(hello_decorator)
+```
+
+For more information on Decorator, visit [https://www.geeksforgeeks.org/decorators-in-python/](https://www.geeksforgeeks.org/decorators-in-python/).
