@@ -1,4 +1,29 @@
+
 # Python
+
+### 1. How Python uses Indentation to control Flow
+
+Python uses a different principle. Python programs get structured through indentation, i.e. code blocks are defined by their indentation. In the case of Python it's a language requirement not a matter of style.
+
+While the concepts of function definitions, loops, and conditional statements are shared across the majority of modern programming languages, the languages often differ in their syntax for delimiting the _bodies_ of these constructs. For example, where C++ uses ‚Äúcurly braces‚Äù as delimiters. 
+
+Python  **uses whitespace (i.e. indentation) to delimit scope**:
+```python
+# example showing that Python uses whitespace to delimit scope
+x = 1
+if x > 10:
+    # we are inside the if-block; this line starts with four blank spaces
+    x = x + 1
+# we are outside of the if-block; there are no leading whitespace characters
+x = x + 3
+```
+
+Python‚Äôs syntax is quite flexible in terms of what it defines as a whitespace delimiter. Its rules are that:
+
+-   One or more whitespace characters (spaces or tabs) is sufficient to serve as indentation.
+-   A given indented block must use a uniform level of indentation. E.g. if the first line of an indented block has two leading spaces, all subsequent lines in that block must lead with exactly two white spaces.
+
+While Python‚Äôs syntax is relatively forgiving, I am not: the  [standard style](https://www.python.org/dev/peps/pep-0008/#indentation)  for indenting in Python is to  **use four space characters**  for each level of indentation. It is strongly advised that you adhere to this standard. Most IDEs and consoles (including Jupyter notebooks) will automatically add a four-space indentation for you when you enter into the body of one of the aforementioned constructs.
 
 ### 9. Exception
 An exception is an error that happens during execution of a program. When that
@@ -24,10 +49,10 @@ Unit Testing in Python is done to identify bugs early in the development stage o
 
 The standard workflow for Unit Test is as follow:
 - You define your own class derived from unittest.TestCase.
-- Then you fill it with functions that start with ë`test_`í.
+- Then you fill it with functions that start with ‚Äò`test_`‚Äô.
 - You run the tests by placing `unittest.main()` in your file, usually at the bottom.
 
-Here's a test **example** code to test ëmultiplyí function.
+Here's a test **example** code to test ‚Äòmultiply‚Äô function.
 
 ```python
 import unittest
@@ -54,7 +79,7 @@ For more information on Unit Test, visit [https://www.guru99.com/python-unit-tes
 Constructors are generally used for instantiating an object. The task of constructors is to initialize(assign values) to the data members of the class when an object of class is created. In Python the `__init__()` method is called the constructor and is always called when an object is created.
 
 There are two types of constructors:
-- **Default constructor**: The default constructor is simple constructor which doesnít accept any arguments. Itís definition has only one argument which is a reference to the instance being constructed.
+- **Default constructor**: The default constructor is simple constructor which doesn‚Äôt accept any arguments. It‚Äôs definition has only one argument which is a reference to the instance being constructed.
 - **Parameterized constructor**: Constructor with parameters is known as parameterized constructor. The parameterized constructor take its first argument as a reference to the instance being constructed known as self and the rest of the arguments are provided by the programmer.
 
 **Syntax of constructor declaration**
@@ -68,9 +93,9 @@ For more information on constructor, visit [https://www.geeksforgeeks.org/constr
 ### 12. Factory
 Factory is an ambiguous term that stands for a function, method or class that supposed to be producing something. Most commonly, factories produce objects. But they may also produce files, records in databases, etc.
 
-For instance, any of these things may be casually referenced as a *ìfactoryî*:
+For instance, any of these things may be casually referenced as a *‚Äúfactory‚Äù*:
 
-- a function or method that creates a programís GUI;
+- a function or method that creates a program‚Äôs GUI;
 - a class that creates users;
 - static method that calls a class constructor in a certain way;
 - one of the creational design patterns.
@@ -140,7 +165,7 @@ For more information on CSV Files, visit [https://www.guru99.com/python-csv.html
 
 ### 16. Reading Files
 Python provides inbuilt functions for reading files. There are two types of files that can be handled in python, normal text files and binary files.
-- **Text files**: In this type of file, Each line of text is terminated with a special character called EOL (End of Line), which is the new line character (ë\ní) in python by default.
+- **Text files**: In this type of file, Each line of text is terminated with a special character called EOL (End of Line), which is the new line character (‚Äò\n‚Äô) in python by default.
 - **Binary files**: In this type of file, there is no terminator for a line and the data is stored after converting it into machine understandable binary language.
 
 There are three ways to read data from a text file.
