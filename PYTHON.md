@@ -63,6 +63,54 @@ Design patterns are a common way of solving well known problems. Two main princi
 
 **You can find more details explanation of Design pattern in Python [here](https://www.toptal.com/python/python-design-patterns).
 
+### 4. Class
+
+Python is an _“object-oriented programming language”_. This means that almost all the code is implemented using a special construct called classes. Programmers use classes to keep related things together. This is done using the keyword _“class”_, which is a grouping of object-oriented constructs. A Class is like an object constructor, or a "blueprint" for creating objects.
+
+Classes provide a means of bundling data and functionality together. Creating a new class creates a new _type_ of object, allowing new _instances_ of that type to be made. Each class instance can have attributes attached to it for maintaining its state. Class instances can also have methods (defined by its class) for modifying its state.
+
+- ### What is a class?
+	
+	A class is a code template for creating objects. Objects have member variables and have behaviour associated with them. In python a class is created by the keyword  `class`.
+
+- ### How to create a class
+	
+	The simplest class can be created using the class keyword. For example, let's create a simple, empty class with no functionalities.
+	```python
+		>>> class Snake:
+		...     pass
+		... 
+		>>> snake = Snake()
+		>>> print(snake)
+		<__main__.Snake object at 0x7f315c573550>
+	```
+- ### Attributes and Methods in class:
+
+	A class by itself is of no use unless there is some functionality associated with it. Functionalities are defined by setting attributes, which act as containers for data and functions related to those attributes. Those functions are called methods.
+	
+	- ### Attributes:
+
+	You can define the following class with the name Snake. This class will have an attribute  `name`.
+	```python
+		>>> class Snake:
+		...     name = "python" # set an attribute `name` of the class
+		...
+	```
+	- ### Methods
+
+	Once there are attributes that “belong” to the class, you can define functions that will access the class attribute. These functions are called methods. When you define methods, you will need to always provide the first argument to the method with a self keyword.
+
+	For example, you can define a class  `Snake`, which has one attribute  `name`  and one method  `change_name`. The method change name will take in an argument  `new_name`  along with the keyword  `self`.
+
+	```python
+		>>> class Snake:
+		...     name = "python"
+		...     
+		...     def change_name(self, new_name): # note that the first argument is self
+		...         self.name = new_name # access the class attribute with the self keyword
+		...
+	```
+
 ### 9. Exception
 An exception is an error that happens during execution of a program. When that
 error occurs, python generate an exception that can be handled, which avoids your program to crash. A Python program terminates as soon as it encounters an error.
