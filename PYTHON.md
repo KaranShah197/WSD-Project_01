@@ -49,3 +49,18 @@ if __name__ == '__main__':
 ```
 
 For more information on Unit Test, visit [https://www.guru99.com/python-unit-testing-guide.html](https://www.guru99.com/python-unit-testing-guide.html).
+
+### 11. Constructor
+Constructors are generally used for instantiating an object. The task of constructors is to initialize(assign values) to the data members of the class when an object of class is created. In Python the `__init__()` method is called the constructor and is always called when an object is created.
+
+There are two types of constructors:
+- **Default constructor**: The default constructor is simple constructor which doesn’t accept any arguments. It’s definition has only one argument which is a reference to the instance being constructed.
+- **Parameterized constructor**: Constructor with parameters is known as parameterized constructor. The parameterized constructor take its first argument as a reference to the instance being constructed known as self and the rest of the arguments are provided by the programmer.
+
+**Syntax of constructor declaration**
+```
+def __init__(self):
+# body of the constructor
+```
+
+For more information on constructor, visit [https://www.geeksforgeeks.org/constructors-in-python/](https://www.geeksforgeeks.org/constructors-in-python/).
