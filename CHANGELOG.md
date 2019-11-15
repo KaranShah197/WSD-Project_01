@@ -1,14 +1,30 @@
 # Changelog  
-All notable changes to this project will be documented in this file.  
+All notable changes to this project will be documented in this file.
+
+## [1.1.6] - 2019-11-14
+
+### Added
+- PYTHON.md file, which defines basic python terminology with examples
+- Defined Exception (Yesha Majmudar)
+- Defined Unit Test (Yesha Majmudar)
+- Defined Constructor (Yesha Majmudar)
+- Defined Factory (Yesha Majmudar)
+- Defined Decorator (Yesha Majmudar)
+- Defined Extend Class (Yesha Majmudar)
+- Defined CSV Files (Yesha Majmudar)
+- Defined Reading Files (Yesha Majmudar)
+
+### Changed
+- README.md file, to update content and add mini project 2 (Yesha Majmudar)
 
 ## [1.1.5] - 2019-10-29
 
 ### Added
-- LINUXFILESYSTEM.md file, which contain the basic commands for linyx file systems
+- LINUXFILESYSTEM.md file, which contain the basic commands for linux file systems
 - GITCOMMANDS.md file, which contains the basic git commands
 
 ### Changed
-- README.md file, to remove the content from it
+- README.md file, to remove the content from it (Karan Shah)
 
 ## [1.1.4] - 2019-10-08
 
@@ -18,7 +34,7 @@ All notable changes to this project will be documented in this file.
 - File paths in Linux description (Karan Shah)
 - Description for Autocompletion with TAB key (Karan Shah)
 - View history with UP and Down arrow  (Karan Shah)
-- ChANGELOG.md file
+- CHANGELOG.md file
 
 
 ### Changed
