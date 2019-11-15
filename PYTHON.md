@@ -40,6 +40,29 @@ if name in people_i_like:
     print 'yay!'
 ```
     
+### 3. Design Patterns from Gang of Four
+
+Patterns can be divided into three different categories depending on their level of abstraction and implementation language independency: architectural patterns, design patterns and idioms. Design patterns are described in what is known as the GANG  OF  FOUR  book (GOF for short). The overall architecture of the system and related design decisions can be explained by giving a set of patterns used. While new patterns do emerge the GOF still remains as the definite reference on design patterns. For this reason it is important to introduce these patterns, the notions and the theory behind them and their applicability to Python community.
+
+GOF is divided into three parts and each part describes the patterns related to the theme of the part. The themes describe the purpose of the patterns. Creational patterns address object instantiation issues. Structural patterns concentrate on object composition and their relations in the runtime object structures. Whereas the structural patterns describe the layout of the object system, the behavioral patterns focus on the internal dynamics and object interaction in the system.
+
+Design patterns are a common way of solving well known problems. Two main principles are in the bases of the design patterns defined by the GOF:
+
+	1. Program to an interface not an implementation.
+	2. Favor object composition over inheritance.
+
+- ### Behavioral Patterns
+
+	Behavioural Patterns involve communication between objects, how objects interact and fulfil a given task. According to GOF principles, there are a total of 11 behavioral patterns in Python: _Chain of responsibility, Command, Interpreter, Iterator, Mediator, Memento, Observer, State, Strategy, Template, Visitor._
+
+- ### Structural Patterns
+	This may very well be the most famous Python design pattern. It includes _FACADE, ADAPTER, DECORATOR_
+
+- ### Creational Patterns
+	Creational patterns are not commonly used in Python. Why? Because of the dynamic nature of the language.
+
+**You can find more details explanation of Design pattern in Python [here](https://www.toptal.com/python/python-design-patterns).
+
 ### 9. Exception
 An exception is an error that happens during execution of a program. When that
 error occurs, python generate an exception that can be handled, which avoids your program to crash. A Python program terminates as soon as it encounters an error.
